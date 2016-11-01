@@ -28,9 +28,10 @@
     <div id="make-reservation">
         <h2>Make a Reservation</h2>
         <form>
-           <p>Name<input type="text" placeholder="Your Name"></p>
-            <p>Day<input type="text" placeholder="Reservation day"></p>
-            <button>Confirm</button>
+           <p>Name<input id="Name" type="text" placeholder="Your Name"></p>
+            <p>Day<input id="Day" type="text" placeholder="Reservation day"></p>
+            <button id="submit-res" type="submit">Confirm</button>
+            <p id="message"></p>
         </form>
     </div>
      <div id="existing-reservation">
@@ -40,12 +41,12 @@
 <th>Name</th>
 <th>Day</th>
 </tr>
-<tr>
+<tr id="res-name">
 <td></td>
 <td></td>
 </tr>
 <tr>
-<td></td>
+<td id="res-day"></td>
 <td></td>
 </tr>
 <tr>
@@ -66,7 +67,7 @@
     </div>
 </center>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
         <script src="js/main.js"></script>

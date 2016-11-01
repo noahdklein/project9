@@ -124,7 +124,9 @@ td, th{
     clear: both;
     padding-top: 2%;
 }
-
+.error {
+    border: 1px solid red;
+}
 
 
 
